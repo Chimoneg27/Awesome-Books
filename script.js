@@ -24,3 +24,15 @@ function generateBooks() {
         bookStore.appendChild(divElement);
     }
 }
+
+function addBook() {
+    let title = document.querySelector('#title').value;
+    let author = document.querySelector('#Author').value;
+    let book = new bookObj(title, author);
+    bookShelf.push(book);
+    generateBooks();
+}
+function removeBook(index) {
+    bookShelf.splice(index, 1);
+    generateBooks();
+}
