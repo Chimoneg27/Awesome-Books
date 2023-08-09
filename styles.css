@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  height: auto;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 2rem;
+}
+
+.reader {
+  width: 20rem;
+  font-size: 1.25rem;
+  padding: 1.25rem;
+}
+
+.reader p {
+  margin: 1rem 0;
+}
+
+.reader button {
+  margin-bottom: 0.25rem;
+}
