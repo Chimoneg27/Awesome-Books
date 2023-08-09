@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  height: auto;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 2rem;
+}
