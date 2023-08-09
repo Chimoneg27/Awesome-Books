@@ -14,3 +14,17 @@ form {
   gap: 0.5rem;
   padding: 2rem;
 }
+
+.reader {
+  width: 20rem;
+  font-size: 1.25rem;
+  padding: 1.25rem;
+}
+
+.reader p {
+  margin: 1rem 0;
+}
+
+.reader button {
+  margin-bottom: 0.25rem;
+}
