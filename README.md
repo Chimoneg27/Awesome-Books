@@ -82,12 +82,6 @@ git clone https://github.com/Chimoneg27/Awesome-Books.git
 - Twitter: [@GarvinChimone](https://twitter.com/GarvinChimone)
 - LinkedIn: [Garvin Chimone](https://www.linkedin.com/in/garvin-chimone-37208924a/)
 
-👤 **Author Evans**
-
-- GitHub: [@evansnyamekye](https://github.com/evansnyamekye)
-- Twitter: [@evansnyamekye]
-- LinkedIn: [evansnyamekye]
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -95,7 +89,7 @@ git clone https://github.com/Chimoneg27/Awesome-Books.git
 - [ ] **[More CSS styling]**
 - [ ] **[More books in the library]**
 - [ ] **[A navigation bar]**
-- [ ] **[A button the removes the book from the library]**
+- [ ] **[Contact details]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
