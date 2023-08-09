@@ -4,27 +4,54 @@
   box-sizing: border-box;
 }
 
+#store-name {
+  font-family: 'Preahvihear', 'Times New Roman', Times, serif;
+  width: 30rem;
+  padding: 0.25rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
 form {
-  margin-top: 2rem;
+  font-family: "Roboto", 'Times New Roman', Times, serif;
+  margin: 1rem auto;
   display: flex;
   flex-direction: column;
   width: 15rem;
   height: auto;
-  align-items: flex-start;
+  align-items: flex-end;
   gap: 0.5rem;
   padding: 2rem;
 }
 
+hr {
+  width: 20%;
+  margin: 1rem auto;
+  border: solid 3px black;
+}
+
+#bookStore {
+  width: 60%;
+  margin: 1rem auto;
+  border: solid 2px black;
+}
+
 .reader {
-  width: 20rem;
-  font-size: 1.25rem;
+  width: 100%;
+  font-size: 1.1rem;
   padding: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  border: solid 2px black;
+  background-color: rgba(235, 235, 235, 0.863);
 }
 
 .reader p {
   margin: 1rem 0;
+  width: 70%;
 }
 
 .reader button {
   margin-bottom: 0.25rem;
+  width: 30%;
 }
