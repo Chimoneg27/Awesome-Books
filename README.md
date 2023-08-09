@@ -35,7 +35,9 @@
 ### Key Features <a name="key-features"></a>
 
 - **[The input form to enter the book values]**
-- **[A button the removes the book from the library]**
+- **[A button that removes the book from the library]**
+- **[A button that adds books to the screen]**
+- **[Added local storage to the project]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,7 +94,8 @@ git clone https://github.com/Chimoneg27/Awesome-Books.git
 
 - [ ] **[More CSS styling]**
 - [ ] **[More books in the library]**
-- [ ] **[Search feature]**
+- [ ] **[A navigation bar]**
+- [ ] **[A button the removes the book from the library]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
