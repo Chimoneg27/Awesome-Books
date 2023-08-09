@@ -18,6 +18,7 @@ function generateBooks() {
             <p class='book-title'>${book.name}</p>
             <p class='books-author'>${book.author}</p>
             <button onclick='removeBook(${i})'>Remove</button>
+            <hr/>
         `;
     bookStore.appendChild(divElement);
   }
@@ -36,6 +37,7 @@ function addBook() {
   generateBooks();
 }
 
+// eslint-disable-next-line no-unused-vars
 function removeBook(index) {
   bookShelf.splice(index, 1);
   saveBooksToLocalStorage();
@@ -50,6 +52,3 @@ bookForm.addEventListener('submit', (event) => {
 window.addEventListener('load', () => {
   generateBooks();
 });
-
-addBook();
-removeBook();
