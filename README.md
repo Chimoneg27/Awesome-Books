@@ -35,7 +35,9 @@
 ### Key Features <a name="key-features"></a>
 
 - **[The input form to enter the book values]**
-- **[A button the removes the book from the library]**
+- **[A button that removes the book from the library]**
+- **[A button that adds books to the screen]**
+- **[Added local storage to the project]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,19 +82,14 @@ git clone https://github.com/Chimoneg27/Awesome-Books.git
 - Twitter: [@GarvinChimone](https://twitter.com/GarvinChimone)
 - LinkedIn: [Garvin Chimone](https://www.linkedin.com/in/garvin-chimone-37208924a/)
 
-👤 **Author Evans**
-
-- GitHub: [@evansnyamekye](https://github.com/evansnyamekye)
-- Twitter: [@evansnyamekye]
-- LinkedIn: [evansnyamekye]
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[More CSS styling]**
 - [ ] **[More books in the library]**
-- [ ] **[Search feature]**
+- [ ] **[A navigation bar]**
+- [ ] **[Contact details]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
