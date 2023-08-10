@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+header {
+  width: auto;
+}
+
+#dates {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+
 #store-name {
   padding: 0.25rem;
 }
@@ -35,7 +46,7 @@ hr {
 
 #bookStore {
   width: 60%;
-  margin: 1rem auto;
+  margin: 2.25rem auto;
   border: solid 1px black;
   display: none;
 }
@@ -172,7 +183,7 @@ main ul {
 
 #store-title {
   width: 60%;
-  margin: 0 auto;
+  margin: 2rem auto;
   text-align: center;
   font-family: 'Preahvihear', 'Times New Roman', Times, serif;
   font-size: 1.65rem;
