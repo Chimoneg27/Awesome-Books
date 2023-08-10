@@ -9,24 +9,45 @@
     <title>Book Library</title>
 </head>
 <body>
-    <h1 id="store-name">Awsome Books</h1>
+    <nav>
+       <h1 id="store-name">Awsome Books</h1> 
 
+       <ul>
+        <li id="list">List</li>
+        <li id="add-book">Add new</li>
+        <li id="contact-details">Contact</li>
+       </ul>
+    </nav>
+    
+    <h2 id="store-title">
+        All available books
+    </h2>
     <div id="bookStore">
-
     </div>
 
-    <hr>
+    <main id="contact-box">
+        <h2>How to contact us</h2>
+
+        <p>If you have any inquires or you would like to add another book to the library. You can contact us at the following spaces</p>
+
+        <ul>
+            <li>Our email: awesomeBooks#1@gmail.com</li>
+            <li>Our Twitter: @aw3som3b00ks</li>
+            <li>Our Intagram: @theRealAwesomeBooks</li>
+            <li>Our Phone Number: +27 91 701 8867</li>
+        </ul>
+    </main>
 
     <form id="book-entry">
         <h2>Add a new book</h2>
-
-        <label for="Booktitle">Title</label>
         <input type="text" id="title" placeholder="Enter Book Title"><br>
-        <label for="Booktitle">Author</label>
         <input type="text" id="Author" placeholder="Enter Author Name"><br>
         <input type="submit" value="Add New Book" id="new-book">
     </form>
 
+    <footer>
+        <p>Copyright..</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
