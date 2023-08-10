@@ -4,6 +4,11 @@
 /* eslint-disable class-methods-use-this */
 const bookForm = document.getElementById('book-entry');
 const bookStore = document.getElementById('bookStore');
+const listClick = document.querySelector('#list');
+const addClick = document.querySelector('#add-book');
+const contactClick = document.querySelector('#contact-details');
+const storeTitle = document.querySelector('#store-title');
+const contacts = document.querySelector('#contact-box');
 
 class BookObj {
   constructor(name, author) {
@@ -73,3 +78,34 @@ bookForm.addEventListener('submit', (event) => {
 });
 
 window.addEventListener('load', generateBooks);
+
+function showForm() {
+  if (bookStore.style.display === 'block') {
+    bookStore.style.display = 'none';
+    storeTitle.style.display = 'none';
+    contacts.style.display = 'none';
+  }
+  bookForm.style.display = 'flex';
+}
+
+function showShelf() {
+  if (bookForm.style.display === 'flex') {
+    bookForm.style.display = 'none';
+    contacts.style.display = 'none';
+  }
+  bookStore.style.display = 'block';
+  storeTitle.style.display = 'block';
+}
+
+function contactUs() {
+  if (bookStore.style.display === 'block') {
+    bookStore.style.display = 'none';
+    storeTitle.style.display = 'none';
+    bookForm.style.display = 'none';
+  }
+  contacts.style.display = 'block';
+}
+
+contactClick.addEventListener('click', contactUs);
+addClick.addEventListener('click', showForm);
+listClick.addEventListener('click', showShelf);
