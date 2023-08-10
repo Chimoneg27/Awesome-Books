@@ -4,12 +4,19 @@
   box-sizing: border-box;
 }
 
+header {
+  width: auto;
+}
+
+#dates {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+
 #store-name {
-  font-family: 'Preahvihear', 'Times New Roman', Times, serif;
-  width: 30rem;
   padding: 0.25rem;
-  margin: 1rem auto;
-  text-align: center;
 }
 
 form {
@@ -17,11 +24,18 @@ form {
   margin: 1rem auto;
   display: flex;
   flex-direction: column;
-  width: 15rem;
+  width: 75%;
   height: auto;
   align-items: flex-end;
   gap: 0.5rem;
   padding: 2rem;
+}
+
+form h2 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  font-size: 2rem;
 }
 
 hr {
@@ -32,26 +46,154 @@ hr {
 
 #bookStore {
   width: 60%;
-  margin: 1rem auto;
-  border: solid 2px black;
+  margin: 2.25rem auto;
+  border: solid 1px black;
+  display: none;
+}
+
+#book-entry {
+  display: none;
 }
 
 .reader {
   width: 100%;
   font-size: 1.1rem;
-  padding: 1.25rem;
+  padding: 0.45rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border: solid 2px black;
   background-color: rgba(235, 235, 235, 0.863);
 }
 
+main p {
+  width: 70%;
+  text-align: left;
+  margin-top: 2.5rem;
+  padding: 0.5rem;
+}
+
 .reader p {
-  margin: 1rem 0;
+  margin: 1.25rem 0;
   width: 70%;
 }
 
 .reader button {
   margin-bottom: 0.25rem;
-  width: 30%;
+  margin-right: 1rem;
+  height: 2rem;
+  width: 10%;
+  box-shadow: 7px 7px 0 -3px rgb(0, 0, 0);
+}
+
+input[type=submit] {
+  box-shadow: 7px 7px 0 -3px rgb(0, 0, 0);
+  height: 2rem;
+  width: 10%;
+  background-color: white;
+  border: solid 2px black;
+}
+
+input[type=text] {
+  width: 75%;
+  border: solid 3px black;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: black;
+}
+
+input::placeholder {
+  color: black;
+  font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+
+nav {
+  font-family: 'Preahvihear', 'Times New Roman', Times, serif;
+  width: 90%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 3px black;
+}
+
+nav ul {
+  display: flex;
+  width: 25%;
+  align-items: center;
+  list-style: none;
+  font-size: 1.45rem;
+}
+
+#list {
+  border-right: solid 2px black;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+nav li:active {
+  color: lightblue;
+}
+
+#add-book {
+  border-right: solid 2px black;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-details {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: -50%;
+  right: -50%;
+  width: 95%;
+  padding: 1rem;
+  font-family: 'Roboto', 'Times New Roman', Times, serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 auto;
+  border: solid 0.2rem black;
+}
+
+main {
+  width: 80%;
+  margin: 2rem auto;
+  font-family: 'Preahvihear', 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 2rem;
+}
+
+main ul {
+  margin-top: 2rem;
+  text-align: left;
+  width: auto;
+}
+
+#store-title {
+  width: 60%;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: 'Preahvihear', 'Times New Roman', Times, serif;
+  font-size: 1.65rem;
+  display: none;
+}
+
+#contact-box {
+  display: none;
 }
