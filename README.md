@@ -38,6 +38,7 @@
 - **[A button that removes the book from the library]**
 - **[A button that adds books to the screen]**
 - **[Added local storage to the project]**
+- **[A navigation bar]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,8 +89,8 @@ git clone https://github.com/Chimoneg27/Awesome-Books.git
 
 - [ ] **[More CSS styling]**
 - [ ] **[More books in the library]**
-- [ ] **[A navigation bar]**
-- [ ] **[Contact details]**
+- [ ] **[A proper design layout]**
+- [ ] **[Responsiveness to make it accessible on mobile screens]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
