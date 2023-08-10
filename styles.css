@@ -74,7 +74,7 @@ main p {
 }
 
 .reader p {
-  margin: 1rem 0;
+  margin: 1.25rem 0;
   width: 70%;
 }
 
@@ -123,7 +123,7 @@ nav ul {
   width: 25%;
   align-items: center;
   list-style: none;
-  font-size: 1.25rem;
+  font-size: 1.45rem;
 }
 
 #list {
@@ -170,9 +170,13 @@ footer {
 
 main {
   width: 80%;
-  margin: 0 auto;
+  margin: 2rem auto;
   font-family: 'Preahvihear', 'Times New Roman', Times, serif;
   text-align: center;
+}
+
+main h2 {
+  font-size: 2rem;
 }
 
 main ul {
