@@ -15,7 +15,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Personal Portfolio] <a name="about-project"></a>
+# 📖 [Awesome Books] <a name="about-project"></a>
 
 **[Awesome Books]** is a project which makes use of JavaScript objects to display books by taking the name and the author of the book
 
